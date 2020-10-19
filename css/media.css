@@ -1,0 +1,105 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* CSS-код */
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* CSS-код */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* CSS-код */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* CSS-код */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* CSS-код */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* CSS-код */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* CSS-код */
+}
+ 
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* CSS-код */
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* CSS-код */
+}
+ 
+/* BlackBerry Torch -------- */
+@media screen and (max-device-width: 480px) {
+/* CSS-код */
+} 
+ 
+/* Samsung GALAXY Tab -------- */
+@media (max-device-width: 1024px) and (orientation: landscape) {
+//css code here
+} 
+ 
+/* Dell Streak 7 --------- */
+@media (max-device-width: 800px) {
+/* CSS-код */
+} 
+ 
+/* Motorola's Xoom -------- */
+@media (max-device-width: 1280px) {
+/* CSS-код */
+} 
+ 
+/* Samsung GALAXY Tab -------- */
+@media (max-device-width: 1024px) and (orientation: landscape) {
+/* CSS-код */
+} 
+
+
+
+
+
+
+@media print {
+  body { font-size: 10pt; }
+}
+
+@media screen {
+  body { font-size: 13px; }
+}
+
+@media screen, print {
+  body { line-height: 1.2; }
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (resolution: 150dpi) {
+    body { line-height: 1.4; }
+}
