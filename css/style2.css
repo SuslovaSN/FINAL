@@ -28,32 +28,20 @@ padding-top: 30px;
     background-color: #ecf0f1;
 }
 
-.nav-link {
-    display: block;
-    padding: .5rem 1rem;
-}
-
-a {
-    color: #292929;
-    font-weight: 100px;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-a:hover {
-    color: #ff0000;
-    font-weight: 100px;
-    text-decoration: underline;
+.title {
+    padding: 0px;
 }
 
 .tarify{
     background-color:  #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
- 
-    }
-    
-   
+}
+
+.body_price{
+padding-left: 0px;
+}
+
 .price{
     padding: 0px;
 }
