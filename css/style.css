@@ -92,11 +92,13 @@ header {
 }
 
 .second_but{
+
 width: 196px;
 height: 49px;
 border-radius: 24px;
 border: 1px solid #cecdcd;
 margin-top: 50px;
+padding-top: 10px;
 color: #000000;
 font-family: Lato;
 font-size: 15px;
@@ -104,20 +106,11 @@ font-weight: 400;
 }
 
 .second_but :hover a{
-    width: 196px;
-    height: 49px;
-    border-radius: 24px;
-    border: 1px solid #ffffff;
-    margin-top: 50px;
+    outline: none;
     color: #ffffff;
-    font-family: Lato;
-    font-size: 15px;
-    font-weight: 400;
+    
     }
 
-.second_but .arrow :hover{
-fill: #ffffff;
-}
 
 .img_first_section{
     margin-top: 50px;
@@ -168,12 +161,14 @@ line-height: 24.68px;
 }
 
 .phone{
-    background-image: url(../img/iPhone__6_left1.png);
+    background-image: url(../img/iPhone_6.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-}
+    background-position: right;
 
+    height: 100vh;
+    
+}
 
 .card_third_column{
 padding: 110px 340px 0px 86px;   
@@ -203,6 +198,7 @@ padding-bottom: 50px;
 }
 
 .but_try_to_huck_us{
+padding-left: 40px;
 border-radius: 20px;
 width: 193px;
 text-align: start;
@@ -375,6 +371,37 @@ margin-left: 5px;
     color: white;
   }
 
+  .but_send_invite:hover {
+    background-color: #858383;
+    outline: none;
+}
+
+.but_send_invite:focus {
+    background-color: #6fc754;
+    outline: none;
+}
+
+.but_send_invite a:hover {
+    color:  #ffffff;
+    text-decoration: none;
+}
+
+.btn_app_store {
+    outline: none !important;
+    box-shadow: none !important;
+    background-image: url("../img/app_store_black.png");
+    background-repeat : no-repeat;
+    width: 205px;  
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 125px;
+    }    
+
+    .btn_app_store:hover {
+        background-image: url("../img/app_store_gray.png");
+        background-repeat : no-repeat;
+    }
+
   .or_download_from{
     opacity: 0.7;
     color: #3a3d4b;
@@ -386,8 +413,23 @@ margin-left: 5px;
     line-height: normal;
     text-align: center;
     text-transform: uppercase; 
-    margin-top: 62px;
+    margin-top: 52px;
   }
+
+
+  .btn-icon {
+    padding-top: 0;
+    padding-bottom: 0;
+}        
+.btn > .icon {
+    position: relative;
+    left: -.75rem;
+    display: inline-block;
+    padding: .375rem .75rem;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: .25rem 0 0 .25rem;
+}
+
 
 .black_but1{
     padding: 0px 20px 0px 20px;
@@ -472,7 +514,8 @@ text-align: center;
     bottom: 350px;
     z-index: 1;
     position: absolute;
-    background-color: #030303;
+    background-color: #e0dddd;
+    
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -512,7 +555,7 @@ padding-bottom: 120px;
 }
 
 .but_price {
-    background-color:#f5f5f8
+    background-color:#f5f5f8;
 }
 
 #price-table ul {
@@ -531,14 +574,15 @@ padding-bottom: 120px;
     text-align: center;
     border-radius: 9px;
     padding-top: 30px;
-    border-width: 25px;
-    border-color: #000000;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f4f4f5;
 }
 
 
 #price-table ul li:hover {
     background-color: hsl(0, 0%, 100%);
-    border-color: #8eb8e2 rgba(255, 255, 255, 0.27);
+    border-color: rgba(255, 255, 255, 0.27);
     box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transform: scale(1.05);
@@ -669,11 +713,20 @@ margin: 82px 0px 67px 0px;
     margin-left: -168px;
 }
 
-.but_subscribe :hover {
+.but_subscribe:hover {
     background-color: #858383;
+    outline: none;
 }
+
+.but_subscribe:focus {
+    background-color: #6fc754;
+    outline: none;
+}
+
 .but_subscribe a:hover {
     color:  #ffffff;
+    text-decoration: none;
+
 }
 
 .subscribe {
@@ -735,16 +788,23 @@ margin-bottom: 80px;
 
 }
 
-.but_footer{
-    width: 133px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #131315;
-    border:none;
-}
+.btn_app_store2 {
+    outline: none !important;
+    box-shadow: none !important;
+    background-image: url("../img/app_store_black_130.png");
+    background-repeat : no-repeat;
+    width: 130px;  
+    height: 36px;
+    margin-top: 15px;
+    }    
+
+    .btn_app_store2:hover {
+        background-image: url("../img/app_store_gray_130.png");
+        background-repeat : no-repeat;
+    }
 
 .labels{
-    padding-top: 39px;
+    padding-top: 20px;
     padding-left: 15px;
     padding-right: 60px;
 }
